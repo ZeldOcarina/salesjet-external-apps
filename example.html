@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="salesjetForm">
+      <input type="text" placeholder="FIRST NAME" name="first_name" />
+      <input type="text" placeholder="LAST NAME" name="last_name" />
+      <input type="text" placeholder="email" name="email" />
+      <input type="submit" />
+    </form>
+    <script
+      src="https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js"
+      integrity="sha384-vcHv6xn1i03F7wpp09X7nmZF6qHFfsDXjOs0V0PtrZzPpk86GvQmzcBnC/Nr9/c6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      connectWithSalesJet("uEqQ3I8IEeqpqL6Gr8iQXw", "test", "no-alert");
+    </script>
+  </body>
+</html>

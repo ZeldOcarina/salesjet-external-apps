@@ -1,5 +1,5 @@
-function connectWithSalesJet(apiKey, event_name, noAlert) {
-  const form = document.getElementById("salesjetForm");
+function connectWithSalesJet(apiKey, event_name, selector, noAlert) {
+  const form = document.querySelector(selector);
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();

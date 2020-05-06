@@ -14,11 +14,16 @@
     </form>
     <script
       src="https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js"
-      integrity="sha384-vcHv6xn1i03F7wpp09X7nmZF6qHFfsDXjOs0V0PtrZzPpk86GvQmzcBnC/Nr9/c6"
+      integrity="sha384-L1ogBu3oEAlkUzzjpq1rOjTUKFymkDk55X8sAOjb9Jv+3PODGZb4+zb8CcA1N7gj"
       crossorigin="anonymous"
     ></script>
     <script>
-      connectWithSalesJet("[API_KEY]", "[CUSTOM_EVENT]", "no-alert");
+      connectWithSalesJet(
+        "[API_KEY]",
+        "[CUSTOM_EVENT]",
+        "#salesjetForm",
+        "no-alert"
+      );
     </script>
   </body>
 </html>

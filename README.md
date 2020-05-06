@@ -50,7 +50,7 @@ The usual behaviour of the form is prevented by the script so you'll have to pro
 
 ## CDN
 
-The Javascript file is hosted at [Link](https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js). Add an integrity attribute to your script tag of 'L1ogBu3oEAlkUzzjpq1rOjTUKFymkDk55X8sAOjb9Jv+3PODGZb4+zb8CcA1N7gj' for security reasons.
+The Javascript file is hosted at [Link](https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js). Add an integrity attribute to your script tag of 'sha384-L1ogBu3oEAlkUzzjpq1rOjTUKFymkDk55X8sAOjb9Jv+3PODGZb4+zb8CcA1N7gj' for security reasons.
 
 For more informations on how to create a custom event in Sales Jet, please refer to Sales Jet's Knowledge Base.
 

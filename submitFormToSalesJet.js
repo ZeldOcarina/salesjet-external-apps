@@ -11,15 +11,14 @@ function connectWithSalesJet(apiKey, event_name, selector, noAlert) {
       formData,
     })
       .then((response) => {
-        return { success: true, error: false, data: response };
+        console.log({ success: true, error: false, data: response });
       })
       .catch((err) => {
-        console.dir(err);
         if (!noAlert && noAlert !== "no-alert")
           alert(
             "An error has occurred while trying to submit the form. Please try later or contact the system administrator."
           );
-        return { succes: false, error: err, data: {} };
+        console.log({ success: false, error: err, data: {} });
       });
   });
 }

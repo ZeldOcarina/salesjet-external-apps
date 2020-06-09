@@ -20,7 +20,7 @@ Make sure to call the function after the CDN script is loaded, in order to do th
 ```
 <script
     src="https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js"
-    integrity="sha384-PSyBnvTN6eFj4PHoNP/QvlmArh6lIvdUZDfw1JN2GRzJeULGpSvc8kwXAl5N+Yh8"
+    integrity="sha384-Vk3vL8B71TgtOZXxU+wj2b8A8neOGhwXYb4KjFPU8fYzcI7N9M0oaw3AqbPsbDqK"
     crossorigin="anonymous"
 ></script>
 <script>
@@ -28,7 +28,7 @@ Make sure to call the function after the CDN script is loaded, in order to do th
 </script>
 ```
 
-In case of success the function returns an object as follows:
+In case of success the function logs an object as follows:
 
 ```
 // SUCCESS OBJECT
@@ -37,7 +37,7 @@ In case of success the function returns an object as follows:
 
 In case of error the default behavior is just alerting an error has occured, you can override this by passing an optional 'no-alert' as the fourth parameter to the function if you want to customize error handling.
 
-This is the error object returned in case of error:
+This is the error object logged in case of error:
 
 ```
 //ERROR OBJECT
@@ -50,7 +50,7 @@ The usual behaviour of the form is prevented by the script so you'll have to pro
 
 ## CDN
 
-The Javascript file is hosted at [Link](https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js). Add an integrity attribute to your script tag of 'sha384-L1ogBu3oEAlkUzzjpq1rOjTUKFymkDk55X8sAOjb9Jv+3PODGZb4+zb8CcA1N7gj' for security reasons.
+The Javascript file is hosted at [Link](https://salesjet-cdn.s3.amazonaws.com/submitFormToSalesJet.js). Add an integrity attribute to your script tag of 'sha384-Vk3vL8B71TgtOZXxU+wj2b8A8neOGhwXYb4KjFPU8fYzcI7N9M0oaw3AqbPsbDqK' for security reasons.
 
 For more informations on how to create a custom event in Sales Jet, please refer to Sales Jet's Knowledge Base.
 
